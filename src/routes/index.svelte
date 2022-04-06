@@ -1,9 +1,7 @@
 <script>
-	let count = 0;
+    let count = 0;
 </script>
 
-<h1>Howdy!</h1>
+<h1>Soon.</h1>
 
-<br />
-
-<button on:click={() => count++}>Clicked: {count} times</button>
+<button on:click={() => count++}>Clicked {count} times</button>

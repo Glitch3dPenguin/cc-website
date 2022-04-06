@@ -1,14 +1,10 @@
-import adapter from '@sveltejs/adapter-static';
+import adapter from '@sveltejs/adapter-auto';
 
 /** @type {import('@sveltejs/kit').Config} */
-export default {
-    kit: {
-        adapter: adapter({
-            // default options are shown
-            pages: 'build',
-            assets: 'build',
-            fallback: null,
-            precompress: false
-        })
-    }
+const config = {
+	kit: {
+		adapter: adapter()
+	}
 };
+
+export default config;
