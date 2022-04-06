@@ -1,9 +1,11 @@
-<script>
-	let count = 0;
-</script>
+<section id="welcome-wagon">test</section>
 
-<h1>Howdy!</h1>
+<section id="test">more content.</section>
 
-<br />
-
-<button on:click={() => count++}>Clicked: {count} times</button>
+<style>
+	#welcome-wagon {
+		width: 100vw;
+		height: 100vh;
+		background: red;
+	}
+</style>
